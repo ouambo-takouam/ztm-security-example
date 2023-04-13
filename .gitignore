@@ -1,5 +1,5 @@
 # modules
 node_modules/
 
-# private keys
-*.pem
+# environment data
+.env
