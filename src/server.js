@@ -4,7 +4,7 @@ const https = require('https');
 
 const app = require('./app');
 
-const PORT = 8000;
+const PORT = 3000;
 
 const server = https.createServer(
 	{
@@ -15,5 +15,5 @@ const server = https.createServer(
 );
 
 server.listen(PORT, () => {
-	console.log('Listening to port 8000');
+	console.log(`Listening to port ${PORT}`);
 });
