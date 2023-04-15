@@ -11,7 +11,7 @@ const middleware = (req, res, next) => {
 
 	if (!isLogged) {
 		return res.status(401).json({
-			error: 'You should log in first, please',
+			error: 'You should log first!',
 		});
 	}
 
